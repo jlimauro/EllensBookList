@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllensBookList.Shared", "El
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EllensBookList\EllensBookList\EllensBookList.projitems*{68354460-bb1c-4c2b-a3af-0c553e3995f1}*SharedItemsImports = 4
 		EllensBookList\EllensBookList\EllensBookList.projitems*{d4226455-7edb-4071-8431-835d8ea8e3ac}*SharedItemsImports = 13
+		EllensBookList\EllensBookList\EllensBookList.projitems*{05c33db9-1b79-404e-bf5f-269f791399a2}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
