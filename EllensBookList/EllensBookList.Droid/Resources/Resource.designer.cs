@@ -45,7 +45,10 @@ namespace EllensBookList.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int AddButtonStyle = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -60,8 +63,20 @@ namespace EllensBookList.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050002
+			public const int bookImage = 2131034114;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int btAddBook = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int myListView = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int txtAuthorTitle = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int txtBookTitle = 2131034115;
 			
 			static Id()
 			{
@@ -79,6 +94,9 @@ namespace EllensBookList.Droid
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int tableRowLayout = 2130903041;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -92,11 +110,11 @@ namespace EllensBookList.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040000
+			public const int addBook = 2130968576;
+			
 			// aapt resource value: 0x7f040001
 			public const int app_name = 2130968577;
-			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
 			
 			static String()
 			{
