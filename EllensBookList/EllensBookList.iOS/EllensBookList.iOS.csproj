@@ -57,7 +57,7 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchProfiling>true</MtouchProfiling>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Jeffrey Limauro (8KZWBA94XL)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
   </PropertyGroup>
   <ItemGroup>
@@ -142,4 +142,10 @@
   </ItemGroup>
   <Import Project="..\EllensBookList\EllensBookList.projitems" Label="Shared" Condition="Exists('..\EllensBookList\EllensBookList.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\EllensBookList.Shared\EllensBookList.Shared.csproj">
+      <Project>{961F21CF-501B-4E4F-BEC2-192EADA19739}</Project>
+      <Name>EllensBookList.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
