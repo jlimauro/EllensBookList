@@ -26,6 +26,9 @@ namespace EllensBookList.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::EllensBookList.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::EllensBookList.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::EllensBookList.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Attribute
@@ -69,6 +72,9 @@ namespace EllensBookList.Droid
 			// aapt resource value: 0x7f050000
 			public const int btAddBook = 2131034112;
 			
+			// aapt resource value: 0x7f050005
+			public const int contentFrame = 2131034117;
+			
 			// aapt resource value: 0x7f050001
 			public const int myListView = 2131034113;
 			
@@ -96,6 +102,12 @@ namespace EllensBookList.Droid
 			
 			// aapt resource value: 0x7f030001
 			public const int tableRowLayout = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int zxingscanneractivitylayout = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int zxingscannerfragmentlayout = 2130903043;
 			
 			static Layout()
 			{

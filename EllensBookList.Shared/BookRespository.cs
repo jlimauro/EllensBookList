@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
 
-namespace EllensBookList
+namespace EllensBookList.Shared
 {
 	public class BookRespository : IBookRepository
 	{
